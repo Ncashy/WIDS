@@ -1,0 +1,23 @@
+WiDS Datathon 2025 - Timeline Analysis Summary
+================================================================================
+
+Analysis Date: 2026-01-25 15:18:21
+
+KEY FINDINGS:
+--------------------------------------------------------------------------------
+Total Wildfire Incidents: 62,696
+Incidents with Evacuations: 2,419
+Total Zone-Fire Linkages: 4,383
+
+DELAY METRICS:
+--------------------------------------------------------------------------------
+Fire-to-Zone Linkage:
+  Mean Delay: 67.29 hours
+  Median Delay: 11.46 hours
+  90th Percentile: 188.20 hours
+
+TEMPORAL PATTERNS:
+--------------------------------------------------------------------------------
+Year Range: 2021 - 2025
+Most Common Hour: 21:00
+Busiest Year: 2024 (24,579 incidents)

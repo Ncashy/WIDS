@@ -1,0 +1,16 @@
+streamlit
+anthropic
+pandas
+numpy
+plotly
+folium
+streamlit-folium
+shapely
+geopandas
+scikit-learn
+requests
+scipy
+lifelines
+xgboost
+shap
+joblib

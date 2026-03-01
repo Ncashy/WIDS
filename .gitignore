@@ -1,0 +1,8 @@
+01_raw_data/*.csv
+01_raw_data/**/*.csv
+*.csv
+01_raw_data/*.csv
+wids-caregiver-alert/src/.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+01_raw_data/processed/evac_zones_active.geojson
+01_raw_data/processed/evac_zones_slim.geojson

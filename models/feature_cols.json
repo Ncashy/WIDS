@@ -1,0 +1,27 @@
+{
+  "feature_cols": [
+    "growth_rate",
+    "max_acres_log",
+    "svi_score",
+    "high_vuln",
+    "region_west",
+    "region_southwest",
+    "region_california",
+    "fire_month",
+    "fire_season"
+  ],
+  "target_col": "hours_to_order",
+  "col_mapping": {
+    "growth_rate_source": "growth_rate_acres_per_hour",
+    "acres_source": "max_acres",
+    "svi_source": "svi_score",
+    "delay_target_source": "hours_to_order",
+    "lat_source": "latitude",
+    "lon_source": "longitude"
+  },
+  "training_stats": {
+    "total_fires": 62696,
+    "fires_with_evac_timing": 653,
+    "fires_with_growth_rate": 19392
+  }
+}

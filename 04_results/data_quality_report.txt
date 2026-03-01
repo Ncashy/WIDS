@@ -1,0 +1,78 @@
+WiDS Datathon 2025 - Data Quality Report
+================================================================================
+Generated: 2026-01-25 16:50:10
+
+DATASET OVERVIEW:
+--------------------------------------------------------------------------------
+geo_events:
+  Rows: 62,696
+  Columns: 35
+
+geo_event_changelog:
+  Rows: 178,697
+  Columns: 5
+
+zone_event_map:
+  Rows: 4,429
+  Columns: 3
+
+evac_zones:
+  Rows: 37,458
+  Columns: 16
+
+fire_perimeters:
+  Rows: 6,207
+  Columns: 14
+
+fire_perimeter_changelog:
+  Rows: 9,048
+  Columns: 5
+
+external_events:
+  Rows: 1,502,495
+  Columns: 14
+
+external_changelog:
+  Rows: 438,889
+  Columns: 5
+
+GEOGRAPHIC COVERAGE:
+--------------------------------------------------------------------------------
+Total Incidents: 62,696
+States Identified: 42
+Unknown States: 48,705
+
+Top 10 States by Incident Count:
+  Unknown        : 48,705 ( 77.7%)
+  CA             :  4,049 (  6.5%)
+  OR             :  1,474 (  2.4%)
+  WA             :  1,317 (  2.1%)
+  AZ             :    770 (  1.2%)
+  MT             :    738 (  1.2%)
+  CO             :    736 (  1.2%)
+  TX             :    684 (  1.1%)
+  MN             :    590 (  0.9%)
+  NE             :    578 (  0.9%)
+
+EVACUATION STATISTICS:
+--------------------------------------------------------------------------------
+Total Fires: 62,696
+Fires with Evacuations: 2,419 (3.9%)
+Fires with Orders: 2,354
+Fires with Warnings: 2,387
+
+DATA QUALITY NOTES:
+--------------------------------------------------------------------------------
+⚠️ 77.7% of incidents have unknown state
+⚠️ Only 3.9% of fires resulted in evacuations
+⚠️ 3,299 fires have missing acreage data
+
+CLEANED FILES LOCATION:
+--------------------------------------------------------------------------------
+All cleaned files saved to: 01_raw_data/cleaned/
+
+NEXT STEPS:
+--------------------------------------------------------------------------------
+1. Review this report
+2. Run analysis scripts using cleaned data
+3. Build dashboard with improved geographic coverage

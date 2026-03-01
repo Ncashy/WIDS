@@ -1,0 +1,100 @@
+# WiDS Datathon 2025 - Project Directory Structure
+================================================================================
+
+PROJECT ORGANIZATION
+--------------------
+
+01_raw_data/
+├── evac_zone_status_geo_event_map.csv
+├── evac_zones_gis_evaczone.csv
+├── evac_zones_gis_evaczonechangelog.csv
+├── fire_perimeters_gis_fireperimeter.csv
+├── fire_perimeters_gis_fireperimeterchangelog.csv
+├── geo_events_externalgeoevent.csv
+├── geo_events_externalgeoeventchangelog.csv
+├── geo_events_geoevent.csv
+├── geo_events_geoeventchangelog.csv
+└── _README.txt
+
+02_documentation/
+├── WiDS_-_-_Watch_Duty_Data_Dictionary.docx
+├── README.md
+├── schema_analysis.md
+└── _README.txt
+
+03_analysis_scripts/
+├── data_profiling.py
+├── eda_1_timeline_analysis.py
+├── eda_2_early_signals.py
+├── eda_3_geographic_patterns.py
+└── _README.txt
+
+04_results/
+├── delay_metrics.csv
+├── zone_linkage_details.csv
+├── early_signals_report.csv
+├── keyword_analysis.csv
+├── geographic_patterns.csv
+├── county_delays.csv
+├── vulnerability_scores.csv
+├── summary_stats.txt
+├── equity_insights.txt
+├── data_profile.txt
+└── _README.txt
+
+05_visualizations/
+├── timeline_viz/
+│   ├── fire_to_zone_delay_distribution.png
+│   ├── incidents_by_year.png
+│   ├── incidents_by_hour.png
+│   └── evacuation_status_breakdown.png
+├── signal_viz/
+│   ├── fire_size_by_evacuation.png
+│   ├── keyword_predictors.png
+│   ├── changelog_activity.png
+│   └── growth_rate_by_evacuation.png
+├── geo_viz/
+│   ├── delays_by_state.png
+│   ├── incidents_by_state.png
+│   ├── delays_by_county.png
+│   ├── vulnerability_scatter.png
+│   └── zones_by_region.png
+└── _README.txt
+
+06_working_files/
+└── _README.txt
+
+================================================================================
+
+QUICK START GUIDE
+-----------------
+
+1. **Read documentation:**
+   - Start with 02_documentation/README.md
+   - Review schema_analysis.md to understand data structure
+
+2. **Run analysis scripts (in order):**
+   - cd 03_analysis_scripts/
+   - python eda_1_timeline_analysis.py
+   - python eda_2_early_signals.py
+   - python eda_3_geographic_patterns.py
+
+3. **Review results:**
+   - Check 04_results/ for CSV files and statistics
+   - View 05_visualizations/ for charts
+
+4. **Build dashboard:**
+   - Use CSV files from 04_results/ as data sources
+   - Reference visualizations from 05_visualizations/
+
+================================================================================
+
+IMPORTANT NOTES
+---------------
+
+✓ Raw data files in 01_raw_data/ should NEVER be modified
+✓ All scripts expect to be run from the project root directory
+✓ Generated files automatically save to correct folders
+✓ Safe to delete 06_working_files/ contents if needed
+
+================================================================================

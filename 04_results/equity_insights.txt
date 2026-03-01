@@ -1,0 +1,20 @@
+WiDS Datathon 2025 - Geographic Equity Analysis
+================================================================================
+
+Analysis Date: 2026-01-25 15:18:27
+
+OVERALL BASELINE:
+  Median delay across all areas: 11.5 hours
+  Mean delay across all areas: 67.3 hours
+
+GEOGRAPHIC DISPARITIES:
+  Slowest state: Unknown (12.1h median)
+  Fastest state: CO (1.3h median)
+  Disparity ratio: 9.0x
+
+PERFORMANCE TIERS:
+  States with ABOVE average delays: 1
+  States with BELOW average delays: 3
+
+HIGH-RISK STATES (high fires + slow response):
+  • Unknown: 4272 fires, 12.1h median delay
